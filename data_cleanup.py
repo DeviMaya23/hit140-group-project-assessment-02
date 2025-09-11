@@ -2,8 +2,8 @@
 import init
 import pandas as pd
 # Loading the original (uncleaned) datasets directly from the CSV files
-data1_original = pd.read_csv("dataset1.csv")
-data2_original = pd.read_csv("dataset2.csv")
+data1_original = pd.read_csv("Datasets/dataset1.csv")
+data2_original = pd.read_csv("Datasets/dataset2.csv")
 # Loading the cleaned versions of the datasets 
 # (using our cleaning functions from init.py)
 

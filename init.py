@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def get_cleaned_dataset1():
-    data = pd.read_csv("dataset1.csv")
+    data = pd.read_csv("Datasets/dataset1.csv")
 
     # delete duplicate rows
     data = data.drop_duplicates()
@@ -18,7 +18,7 @@ def get_cleaned_dataset1():
 
 
 def get_cleaned_dataset2():
-    data = pd.read_csv("dataset2.csv")
+    data = pd.read_csv("Datasets/dataset2.csv")
 
     # delete duplicate rows
     data = data.drop_duplicates()
